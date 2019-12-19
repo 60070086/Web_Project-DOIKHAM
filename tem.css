@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+.cont{
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    border: 1px solid red;
+    box-sizing: border-box;
+    min-height: 10px;
+
+}
+.fluid{
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 1px solid red;
+    box-sizing: border-box;
+    min-height: 10px;
+
+}
+.wide{
+    width: 100%;
+}
+img{
+    font-size: 0;
+}
+.mainnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+.img-center{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+#home-about1,#home-about2,#home-about3 {
+    display: flex;
+    flex-flow: wrap row;
+}
+#home-about1 .text,
+#home-about2 .text{
+    width: 50%;
+}
+#home-about3 .text{
+    width: 25%;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}

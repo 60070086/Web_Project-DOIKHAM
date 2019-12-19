@@ -1,0 +1,525 @@
+body {
+  background-color: white;
+  margin:0;}
+
+/*.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}*/
+.dropdown-content a:hover {
+  background-color: #edcfae;
+  border-radius: 25px;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 425px) {
+  /*.topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }*/
+  .topnav {
+    width: 100%;
+    border-bottom: solid;
+    border-bottom-width: 1.5px;
+    border-bottom-color: #7e5247;
+    /*padding-left: 10%;*/
+    /*padding-right: 25%;*/
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+  }
+
+  .topnav .mob .nameText a {
+    float: left;
+    color: #7e5247;
+    display: block;
+    text-align: center;
+    padding: 20px 20px 0px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Sriracha', cursive;
+  }
+  .topnav .mob .nameText2 a img{
+    width: 0px;
+    padding: 0px 0px 0px;
+    opacity: 0;
+  }
+  .topnav .mob .nameText2 a {
+    float: left;
+    color: #7e5247;
+    display: block;
+    text-align: center;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Sriracha', cursive;
+  }
+  .topnav .logo1 a img{
+    display: block;
+    width: 130px;height: 60%;
+    padding: 4% 35% 0%;
+    opacity: 1;
+  }
+  .topnav .mob .logo2 a img{
+    width: 0px;
+    padding: 0px 0px 0px;
+    opacity: 0;
+  }
+
+  .topnav {
+    display: block;
+  }
+
+  .dropdown {
+    padding-left: 5px;
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 14px;    
+    border: none;
+    outline: none;
+    color: #7e5247;
+    padding: 20px 10px 0px;
+    background-color: inherit;
+    font-family: 'Sriracha', cursive;
+    margin: 0;
+  }
+  .dropdown-content {
+    /*margin-left: 80px;*/
+    font-family: 'Sriracha', cursive;
+    display: none;
+    position: absolute;
+    background-color: #eeac62;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 4px;
+    border-left-color: #eeac62;
+    border-top-color: #eeac62;
+    border-right-color: #cd8e4b;
+    border-bottom-color: #cd8e4b;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    font-size: 10px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a img {
+    width: 10px; height: 10px;
+  }
+
+
+.about-dk h1{
+  margin: 0px;
+  color: #eac130;
+  font-size: 18pt;
+  font-family: 'Sriracha', cursive;
+  padding: 5% 0% 0% 5%;
+}
+
+.paimai {
+  width: 300px; height: 170px;
+  background-image: url(material/ป้ายไม้.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.ninth1 {
+  width: 350px;
+  position: relative;
+  display: flex;
+  top: 20%;
+  left: 8%;
+}
+.ninth1 img{
+  width: 100%;
+  height: 270px;
+}
+.txt-bts {
+  position: absolute;
+  display: flex;
+  left: 5%;
+  top: 95%;
+}
+
+.txt-bts p {
+  text-align: center;
+  width: 370px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 11pt;
+  color: #7e5247;
+}
+
+.objectM {
+  position: relative;
+  top: 650px;
+  left: 15%;
+}
+.objectM img {
+  width: 25%;
+  height: 70;
+  display: inline;
+  padding: 20px;
+}
+
+.chaodoi {
+  width: 350px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  left: 8%;
+  top: 80px;
+}
+.chaodoi img{
+  width: 100%;
+  height: 270px;
+}
+
+.txt-bts3 {
+  position: absolute;
+  display: flex;
+  left: 8%;
+  top: 245%;
+}
+
+.txt-bts3 p {
+  width: 370px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 11pt;
+  color: #7e5247;
+}
+
+
+.baan {
+  position: relative;
+  display: flex;
+  left: 6%;
+  top: 820px;
+}
+.baan img{
+  width: 370px;
+  height: 400px;
+}
+.tonya {
+  position: absolute;
+  display: flex;
+  left: 13%;
+  top: 436%;
+}
+.tonya img{
+  width: 300px;
+  height: 130px;
+}
+
+.txt-bts4 {
+  position: absolute;
+  display: flex;
+  left: 8%;
+  top: 370%;
+}
+.txt-bts4 img {
+  position: relative;
+  display: flex;
+  top: 230%;
+}
+
+.txt-bts4 p {
+  width: 370px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 11pt;
+  color: #7e5247;
+}
+
+.factory {
+  width: 350px; height: 200px;
+  background-image: url(material/โรงงานหลวงอาหารสำเร็จรูป2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  left: 8%;
+  top: 1400px;
+}
+
+.txt-bts5 {
+  position: relative;
+  display: flex;
+  left: 8%;
+  top: 1400px;
+}
+.txt-bts5 p {
+  width: 370px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 11pt;
+  color: #7e5247;
+}
+.txt-bts5 a {
+  width: 35px;
+  height: 40px;
+  position: absolute;
+  left: 30%;
+  top: 100%;
+}
+.txt-bts5 a img{
+  width: 84px;
+}
+
+
+}
+
+@media screen  and (min-width: 426px) {
+    .topnav .mob {
+    border-bottom: solid;
+    border-bottom-width: 1.5px;
+    border-bottom-color: #7e5247;
+    padding-left: 7%;
+    /*padding-right: 25%;*/
+    overflow: hidden;
+    background-color: white;
+    display: block;
+  }
+
+  .topnav .mob .nameText a {
+    float: left;
+    color: #7e5247;
+    padding: 20px 80px 0px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Sriracha', cursive;
+  }
+  .topnav .mob .nameText2 a img{
+    width: 130px; height: 60%
+    padding: 0px 0px 0px;
+    opacity: 1;
+  }
+  .topnav .mob .nameText2 a {
+    float: left;
+    color: #7e5247;
+    padding: 0px 80px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Sriracha', cursive;
+  }
+
+  .topnav .logo1 a img{
+    width: 0px;
+    padding: 0px 0px 0px;
+    opacity: 0;
+  }
+  .topnav .mob .logo2 a img{
+    width: 0px;
+    padding: 0px 0px 0px;
+    opacity: 0;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 22px;    
+    border: none;
+    outline: none;
+    color: #7e5247;
+    padding: 20px 80px;
+    background-color: inherit;
+    font-family: 'Sriracha', cursive;
+    margin: 0;
+  }
+
+  .dropdown-content {
+    margin-left: 80px;
+    display: none;
+    position: absolute;
+    background-color: #eeac62;
+    min-width: 160px;
+    font-family: 'Sriracha', cursive;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 4px;
+    border-left-color: #eeac62;
+    border-top-color: #eeac62;
+    border-right-color: #cd8e4b;
+    border-bottom-color: #cd8e4b;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    font-size: 16px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+  }
+  .dropdown-content a img {
+    width: 20px; height: 20px;
+  }
+  
+.about-dk h1{
+  margin: 0px;
+  color: #eac130;
+  font-size: 24pt;
+  font-family: 'Sriracha', cursive;
+  padding: 5% 0% 0% 5%;
+}
+
+.paimai {
+  width: 520px; height: 300px;
+  background-image: url(material/ป้ายไม้.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.ninth1 {
+  position: relative;
+  display: flex;
+  top: 20%;
+  left: 10%;
+}
+
+.txt-bts {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 75%;
+}
+
+.txt-bts p {
+  width: 750px;
+  height: 400px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 17pt;
+  color: #7e5247;
+}
+
+.objectM {
+  position: relative;
+  left: 15%;
+}
+.objectM img {
+  width: 15%;
+  height: 170;
+  display: inline;
+  padding: 30px;
+}
+
+.chaodoi {
+  position: relative;
+  display: flex;
+  left: 10%;
+}
+
+.txt-bts3 {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 175%;
+}
+
+.txt-bts3 p {
+  width: 750px;
+  height: 450px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 17pt;
+  color: #7e5247;
+}
+
+
+.baan {
+  position: relative;
+  display: flex;
+  left: 10%;
+}
+
+.tonya {
+  position: absolute;
+  display: flex;
+  left: 55%;
+  top: 215%;
+}
+
+.txt-bts4 {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 250%;
+}
+.txt-bts4 img {
+  position: relative;
+  display: flex;
+  top: 230%;
+}
+
+.txt-bts4 p {
+  width: 750px;
+  height: 450px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 17pt;
+  color: #7e5247;
+}
+
+.factory {
+  width: 650px; height: 420px;
+  background-image: url(material/โรงงานหลวงอาหารสำเร็จรูป2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  left: 40%;
+}
+
+.txt-bts5 {
+  position: relative;
+  display: flex;
+  left: 20%;
+}
+.txt-bts5 p {
+  width: 950px;
+  height: 450px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 17pt;
+  color: #7e5247;
+}
+.txt-bts5 a {
+  width: 55px;
+  height: 60px;
+  position: absolute;
+  left: 25%;
+  top: 80%;
+}
+
+}
+
+

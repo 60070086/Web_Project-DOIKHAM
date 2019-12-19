@@ -1,0 +1,537 @@
+body {
+  background-color: white;
+  margin:0;}
+
+/*.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}*/
+.dropdown-content a:hover {
+  background-color: #edcfae;
+  border-radius: 25px;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 425px) {
+  /*.topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }*/
+  .topnav {
+    width: 100%;
+    border-bottom: solid;
+    border-bottom-width: 1.5px;
+    border-bottom-color: #7e5247;
+    /*padding-left: 10%;*/
+    /*padding-right: 25%;*/
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+  }
+
+  .topnav .mob .nameText a {
+    float: left;
+    color: #7e5247;
+    display: block;
+    text-align: center;
+    padding: 20px 20px 0px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Sriracha', cursive;
+  }
+  .topnav .mob .nameText2 a img{
+    width: 0px;
+    padding: 0px 0px 0px;
+    opacity: 0;
+  }
+  .topnav .mob .nameText2 a {
+    float: left;
+    color: #7e5247;
+    display: block;
+    text-align: center;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Sriracha', cursive;
+  }
+  .topnav .logo1 a img{
+    display: block;
+    width: 130px;height: 60%;
+    padding: 4% 35% 0%;
+    opacity: 1;
+  }
+  .topnav .mob .logo2 a img{
+    width: 0px;
+    padding: 0px 0px 0px;
+    opacity: 0;
+  }
+
+  .topnav {
+    display: block;
+  }
+
+  .dropdown {
+    padding-left: 5px;
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 14px;    
+    border: none;
+    outline: none;
+    color: #7e5247;
+    padding: 20px 10px 0px;
+    background-color: inherit;
+    font-family: 'Sriracha', cursive;
+    margin: 0;
+  }
+  .dropdown-content {
+    /*margin-left: 80px;*/
+    font-family: 'Sriracha', cursive;
+    display: none;
+    position: absolute;
+    background-color: #eeac62;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 4px;
+    border-left-color: #eeac62;
+    border-top-color: #eeac62;
+    border-right-color: #cd8e4b;
+    border-bottom-color: #cd8e4b;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    font-size: 10px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a img {
+    width: 10px; height: 10px;
+  }
+
+.rebrand h1{
+  margin: 0px;
+  color: #eac130;
+  font-size: 18pt;
+  font-family: 'Sriracha', cursive;
+  padding: 5% 0% 0% 5%;
+}
+
+.paimai {
+  width: 370px; height: 190px;
+  background-image: url(material/newdk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.factory{
+  display: flex;
+  position: relative;
+  top: 20%;
+  left: 1%;
+}
+.factory img{
+  width: 100%;
+  height: 300px;
+}
+.txt-bts{
+  position: absolute;
+  display: flex;
+  left: 8%;
+  top: 100%;
+}
+.txt-bts p {
+  width: 370px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 11pt;
+  color: #7e5247;
+}
+
+/*.sam-klong {
+  width: 450px;
+  height: 550px;
+  background-image: url(material/ผลิตภัณฑ์.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  top: 100%;
+  left: 45%;
+}*/
+
+.change{
+  display: flex;
+  position: relative;
+  left: 24%;
+}
+.change img{
+  width: 220px;
+  height: 300px;
+  padding-top: 50%;
+}
+.txt-bts3{
+  position: absolute;
+  left: 5%;
+  top: 185%;
+}
+.txt-bts3 p {
+  text-align-last: center;
+  margin: 0;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 11pt;
+  color: #7e5247;
+}
+
+.rebrand2 h1{
+  margin: 0px;
+  color: #eac130;
+  font-size: 18pt;
+  font-family: 'Sriracha', cursive;
+  padding: 90% 0% 0% 5%;
+}
+
+.paimai2 {
+  width: 370px; height: 190px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.paimai2 img{
+  width: 370px;
+  height: 190px;
+}
+
+.sixbox{
+  width: 350px; height: 1100px;
+  background-image: url(material/กล่องๆ2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: block;
+  left: 10%;
+}
+.sixbox img{
+  visibility: hidden;
+}
+
+.txt-bts4{
+  width: 370px;
+  position: absolute;
+  left: 6%;
+  top: 450%;
+}
+.txt-bts4 p {
+  text-align: center;
+  margin: 0;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 11pt;
+  color: #7e5247;
+}
+
+.rebrand3 h1{
+  margin: 0px;
+  color: #eac130;
+  font-size: 18pt;
+  font-family: 'Sriracha', cursive;
+  padding: 45% 0% 0% 5%;
+}
+
+.paimai3 {
+  width: 370px; height: 190px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.paimai3 img{
+  width: 370px;
+  height: 190px;
+}
+
+.sensen{
+  width: 350px; height: 1420px;
+  background-image: url(material/เส้นๆ2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: block;
+  left: 10%;
+}
+.sensen img{
+  visibility: hidden;
+}
+
+.home-but a{
+  width: 55px;
+  height: 60px;
+  position: relative;
+  left: 35%;
+}
+.home-but a img{
+  width: 20%;
+}
+}
+
+@media screen  and (min-width: 426px) {
+    .topnav .mob {
+    border-bottom: solid;
+    border-bottom-width: 1.5px;
+    border-bottom-color: #7e5247;
+    padding-left: 7%;
+    /*padding-right: 25%;*/
+    overflow: hidden;
+    background-color: white;
+    display: block;
+  }
+
+  .topnav .mob .nameText a {
+    float: left;
+    color: #7e5247;
+    padding: 20px 80px 0px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Sriracha', cursive;
+  }
+  .topnav .mob .nameText2 a img{
+    width: 130px; height: 60%
+    padding: 0px 0px 0px;
+    opacity: 1;
+  }
+  .topnav .mob .nameText2 a {
+    float: left;
+    color: #7e5247;
+    padding: 0px 80px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Sriracha', cursive;
+  }
+
+  .topnav .logo1 a img{
+    width: 0px;
+    padding: 0px 0px 0px;
+    opacity: 0;
+  }
+  .topnav .mob .logo2 a img{
+    width: 0px;
+    padding: 0px 0px 0px;
+    opacity: 0;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 22px;    
+    border: none;
+    outline: none;
+    color: #7e5247;
+    padding: 20px 80px;
+    background-color: inherit;
+    font-family: 'Sriracha', cursive;
+    margin: 0;
+  }
+
+  .dropdown-content {
+    margin-left: 80px;
+    display: none;
+    position: absolute;
+    background-color: #eeac62;
+    min-width: 160px;
+    font-family: 'Sriracha', cursive;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 4px;
+    border-left-color: #eeac62;
+    border-top-color: #eeac62;
+    border-right-color: #cd8e4b;
+    border-bottom-color: #cd8e4b;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    font-size: 16px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+  }
+  .dropdown-content a img {
+    width: 20px; height: 20px;
+  }
+
+.rebrand h1{
+  margin: 0px;
+  color: #eac130;
+  font-size: 24pt;
+  font-family: 'Sriracha', cursive;
+  padding: 5% 0% 0% 5%;
+}
+
+.paimai {
+  width: 400px; height: 210px;
+  background-image: url(material/newdk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+.factory{
+  display: flex;
+  position: relative;
+  top: 20%;
+  left: 10%;
+}
+.txt-bts{
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 70%;
+}
+.txt-bts p {
+  width: 600px;
+  height: 400px;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 17pt;
+  color: #7e5247;
+}
+
+/*.sam-klong {
+  width: 450px;
+  height: 550px;
+  background-image: url(material/ผลิตภัณฑ์.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  top: 100%;
+  left: 45%;
+}*/
+
+.change{
+  display: flex;
+  position: relative;
+  left: 15%;
+}
+.txt-bts3{
+  position: absolute;
+  left: 35%;
+  top: 125%;
+}
+.txt-bts3 p {
+  text-align-last: right;
+  margin: 0;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 17pt;
+  color: #7e5247;
+}
+
+.rebrand2 h1{
+  margin: 0px;
+  color: #eac130;
+  font-size: 24pt;
+  font-family: 'Sriracha', cursive;
+  padding: 5% 0% 0% 5%;
+}
+
+.paimai2 {
+  width: 460px; height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.home10 {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sixbox img {
+  position: relative;
+  padding-left: 250px;
+}
+
+.txt-bts4{
+  position: absolute;
+  left: 15%;
+  top: 445%;
+}
+.txt-bts4 p {
+  text-align: right;
+  margin: 0;
+  font-family: 'Sarabun', sans-serif;
+  font-size: 17pt;
+  color: #7e5247;
+}
+
+.rebrand3 h1{
+  margin: 0px;
+  color: #eac130;
+  font-size: 24pt;
+  font-family: 'Sriracha', cursive;
+  padding: 15% 0% 0% 5%;
+}
+
+.paimai3 {
+  width: 460px; height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.sensen img {
+  position: relative;
+  padding-left: 250px;
+}
+
+.home-but a{
+  width: 55px;
+  height: 60px;
+  position: relative;
+  left: 50%;
+}
+
+}

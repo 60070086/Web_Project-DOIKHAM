@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+}
+.dropdown-content a:hover {
+  background-color: #edcfae;
+  border-radius: 25px;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown .dropbtn {
+   font-size: large;    
+   border: none;
+   outline: none;
+   color: #7e5247;
+   background-color: inherit;
+   font-family: 'Sriracha', cursive;
+ }
+ .dropdown-content {
+   font-family: 'Sriracha', cursive;
+   display: none;
+   position: absolute;
+   background-color: #eeac62;
+   min-width: 100px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   border-radius: 25px;
+   border-style: solid;
+   border-width: 4px;
+   border-left-color: #eeac62;
+   border-top-color: #eeac62;
+   border-right-color: #cd8e4b;
+   border-bottom-color: #cd8e4b;
+ }
+
+ .dropdown-content a {
+   float: none;
+   color: black;
+   font-size: medium;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+ }
+ .dropdown-content a img {
+   width: 15px; height: 15px;
+ }
+.cont{
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    /*border: 1px solid red;*/
+    box-sizing: border-box;
+    min-height: 10px;
+    
+}
+.cont a{
+    font-size: large; 
+    font-family: 'Sriracha', cursive;
+    color: #7e5247;
+    text-decoration: none;
+}
+
+#home-nav {
+    border-bottom: 1.5px solid #7e5247; 
+}
+
+.fluid{
+    width: 100%;
+    display: block;
+    margin: auto;
+    /*border: 1px solid red;*/
+    box-sizing: border-box;
+    min-height: 10px;
+
+}
+.wide{
+    width: 100%;
+}
+img{
+    font-size: 0;
+}
+.mainnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+.img-center{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+#home-about1,#home-about2,#home-about3 {
+    display: flex;
+    flex-flow: wrap row;
+}
+#home-about1 .text,
+#home-about2 .text{
+    width: 50%;
+}
+#home-about3 .text{
+    width: 25%;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}

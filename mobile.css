@@ -1,0 +1,23 @@
+@media only screen and (max-width: 900px) {
+
+
+.mainnav {
+	padding: 1em;
+}
+
+#home-about1 .text,
+#home-about2 .text{
+	width: 100%;
+}
+
+
+#home-about3 .text{
+	width: 50%;
+}
+
+
+
+
+
+
+}
